@@ -1,0 +1,99 @@
+<div class="body-section">
+    <div class="container">
+        <div class="row">
+
+            <!------ Left section Start ------>
+
+            <leftnav></leftnav>
+
+            <!------ Right section Start ------>
+
+            <div class="col-xs-12 col-sm-9 col-md-9">
+                <div class="right-section">
+
+                    <div class="ticket-box-hd">
+                        <!-- <div class="col-xs-1 col-sm-1 col-md-1"><input type="checkbox"></div> -->
+                        <div class="col-xs-11 col-sm-10 col-md-10">
+                            <span style="margin-right:15px;"><input type="checkbox"></span>
+                            <button type="button" class="btn btn-sm btn-default">Approve</button>
+                            <select class="form-control" style="width:30%; display:inline;">
+									<option>Select</option>
+									<option>Bank</option>
+								</select>
+                            <button type="button" class="btn btn-sm btn-default">mPos</button>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-2">
+                            <a href="#" class="pull-right">Export</a>
+                        </div>
+                    </div>
+
+                    <div class="ticket-box">
+                        <div class="ticket-box-bdy dabba" id="page-wrap">
+                            <ul>
+                                <li *ngFor="let res of Alltickets">
+                                    <div class="col-xs-12 col-sm-5 col-md-5">
+                                        <div class="">
+                                            <input type="checkbox">
+                                            <h4>#12345 : {{res.patient_name}} ( MRN : [ 98234 ] )</h4>
+                                            <p>created : 6 Days ago Overdue by 5 days</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3 col-md-3">
+                                        <div class="margin-bottom-15">
+                                            <button type="button" class="cust-btn1">Approved</button>
+                                            <button type="button" class="cust-btn2">Reject</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                        <div class="actp">
+                                            <p>
+                                                <span>Amount</span>:
+                                                <label>
+														Rs. 1500/-
+													</label>
+                                            </p>
+                                            <p>
+                                                <span>Services</span>:
+                                                <label>
+														<select class="custom-select">
+															<option>Select</option>
+															<option>Select 1</option>
+															<option>Select 2</option>
+															<option>Select 3</option>
+														</select>
+													</label>
+                                            </p>
+                                            <p>
+                                                <span>Status</span>:
+                                                <label>
+														<select class="custom-select">
+															<option>Select</option>
+															<option>Select 1</option>
+															<option>Select 2</option>
+															<option>Select 3</option>
+														</select>
+													</label>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!------ Right section End ------>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Body container Section End -->

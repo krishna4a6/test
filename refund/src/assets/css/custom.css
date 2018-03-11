@@ -1,0 +1,145 @@
+body { margin:0; padding:0; }
+.form-control { border-radius:0px; padding:3px 5px; height:30px;}
+.logo { padding:15px 0;}
+.footer { background:#fff; height: 30px; padding: 5px 0; font-size: 11px; position:fixed; bottom:0; width:100%; z-index:999; text-align:center;}
+.main-nav-bar { background:#758ec6; width:100%; min-height:45px; padding:0;}
+.main-nav-bar ul { float:right; margin:0; padding:0;}
+.main-nav-bar ul h4 { float:left; width:auto; color:#fff; font-size:18px; margin-right:15px; line-height:30px;}
+.main-nav-bar ul li { list-style:none; /* background:#6b84bb; */ float:left; text-align:center;}
+.main-nav-bar ul li  a { color:#fff; display:block; padding:15px 15px; font-size:14px;}
+.main-nav-bar ul li  a:hover, .main-nav-bar ul li  a:focus, .main-nav-bar ul li  a.active { background:#50579c; color:#fff;}
+
+a.collapsed, .logout a, a:link { color:#666;}
+.panel-group { margin-top:15px;}
+.brand-ttl { float:right; width:auto; padding:10px 0px; font-size:24px; color:#758ec6; font-weight:600;}
+
+.body-section { width:100%; padding:20px 0; display:block; height:auto; background: #efefef; overflow:hidden; margin-bottom:30px; position:relative; clear:both;}
+
+.left-section { float:left; width:100%; background:#fff; padding:15px; overflow:hidden; height:auto;}
+.right-section { float:left; width:100%; background:#fff; padding:15px; height:auto; overflow:hidden;}
+.right-section .ticket-box { width:100%; overflow:hidden; border:solid 1px #eee; height:auto;}
+.right-section  .ticket-box-hd { background:#eee; padding:6px 0; width:100%; overflow:hidden;}
+.right-section  .ticket-box-hd input[type="checkbox"] { float:left; margin-top:8px;}
+.right-section  .ticket-box-hd a { margin-top:6px;}
+.right-section .ticket-box .ticket-box-bdy { width:100%; overflow:auto; max-height:640px;}
+.right-section .ticket-box .ticket-box-bdy  ul { width:100%; margin:0; padding:0;}
+.right-section .ticket-box .ticket-box-bdy ul li { list-style:none; border-bottom:solid 1px #eee; width:100%; padding-top:10px; height:auto; display:inline-block;}
+.right-section .ticket-box .ticket-box-bdy ul li  input[type="checkbox"] { float:left; font-size:10px; width:15px; margin-right:20px;}
+.right-section .ticket-box .ticket-box-bdy ul li p { margin-bottom:0; display:block; clear:both; font-size:13px; color:#666; margin-left:35px;}
+.right-section .ticket-box .ticket-box-bdy ul li h4 { margin-bottom:0; font-size:14px; font-weight:bold; color:#666;}
+.right-section .ticket-box .ticket-box-bdy ul li:hover { background:#f9f9f9; cursor:pointer;}
+.right-section .ticket-box .ticket-box-bdy ul li p span { float:left; width:30%;}
+.right-section .ticket-box .ticket-box-bdy ul li p label {width:65%;}
+.right-section .ticket-box .ticket-box-bdy ul li .slt { width:100%; padding:3px 5px; margin-top:0px; margin-bottom:10px;}
+.right-section .ticket-box .ticket-box-bdy ul li  .actp  p{ margin-left:0;}
+
+.costom-arrow-box { width:92%; margin:auto; padding:15px; display:block; border:solid 1px #ccc; background:#fff; margin-bottom:15px; margin-top:15px; position:relative;}
+.costom-arrow-box:after, .costom-arrow-box:before { right: 100%; top: 50px; border: solid transparent; content: "";	height: 0; width: 0; position: absolute; pointer-events: none;} 
+.costom-arrow-box:after { border-right-color: #fff; border-width: 8px; margin-top: -28px;}
+.costom-arrow-box:before { border-right-color: #ccc; border-width: 10px; margin-top: -30px;}
+.open-box { border:solid 1px #ccc; overflow:hidden; padding:0 15px; margin-bottom:15px;}
+.open-box a { color:#50579c; font-style:italic; font-weight:600;}
+.atag { color:#50579c !important; margin:5px 10px; font-weight:600;}
+/* .form-group { overflow:hidden; height:auto;} */
+.cust-btn { background:#758ec6; color:#fff; padding:2px 10px; font-size:13px; border:solid 1px #50579c; margin-top:10px;}
+.cust-btn1 { background:#7aa941; color:#fff; padding:2px 10px; font-size:13px; border:solid 1px #50579c; margin-top:10px;}
+.cust-btn2 { background:#e02222; color:#fff; padding:2px 10px; font-size:13px; border:solid 1px #50579c; margin-top:10px;} 
+.cust-btn:hover, .cust-btn1:hover, .cust-btn2:hover { color:#fff;}
+.custom-select { background:#fff; color:#999; border:solid 1px #fff; width:100%;}
+.custom-select:hover { background:#eee; color:#333; border:solid 1px #ccc;}
+
+.reject{ width:50%; height:auto; padding:10px; border:solid 1px #ccc; background:#fff; overflow:hidden; position:relative; top:-26px; margin:auto;}
+.reject textarea { width:100%; min-height:80px; border:solid 1px #ccc;}
+.reject1{ width:94%; height:auto; padding:10px; border:solid 1px #ccc; background:#fff; overflow:hidden; position:relative; top:-10px; margin:auto;}
+.reject1 textarea { width:100%; min-height:80px; border:solid 1px #ccc;}
+.glyphicon-filter { font-size:18px; background:#323A8B; color:#fff; float:left; padding:9px 10px; border-radius:5px; margin-top:14px;}
+.overlay { display:none;}
+
+.vew-tkif { width:100%;}
+.vew-tkif p { width:100%; display:block; clear:both;}
+.vew-tkif p label { width:52%; float:left}
+.vew-tkif p span { width:46%;}
+
+  .text-overflow {
+      display:block; 
+      overflow:hidden;
+      word-break: break-word;
+      word-wrap: break-word;
+  }
+
+  .btn-overflow {
+    display: none;
+    text-decoration: none; 
+  }
+
+.coment-box { width: 100%; border:solid 1px #eee; height:auto; padding:15px; margin-bottom:20px; display:block; clear:both;} 
+
+.cont-set { min-height:470px; background:#fff; padding:15px; overflow:hidden;}
+
+.body-cont { overflow:hidden; height:auto; border:solid 1px #eee; padding:15px; margin-top:20px; width:100%;}
+.inr-icon { font-size: 60px; border: solid 3px #ccc; border-radius: 100%; width: 100px; height: 100px; display: inline-block; text-align: center; line-height: 100px;} 
+.inr-icon:hover { background:#50579c; color:#fff; border:solid 3px #758ec6;} 
+.bank-list { width:100%; overflow:hidden;}
+.bank-list ul { width:100%; margin:0; padding:0;}
+.bank-list ul li { list-style:none; text-decoration:none; width:33%; display:inline-block; border:solid 1px #758ec6;  padding:10px 15px;} 
+.bank-list ul li a { width:100%; border:solid 1px #758ec6; font-size:18px; font-weight:bold; color:#758ec6;     text-transform: uppercase;} 
+.bank-list ul li a input[type="checkbox"] { float:left; margin-right:15px;}
+.bank-list ul li:hover { background:#758ec6; color:#fff;}
+.left-section label { float:left; width:100%;}
+.std-input[type="text"],
+.std-input[type="number"],
+.std-input[type="date"],
+select.std-input,
+textarea.std-input {
+	border: 1px solid #ccc;
+	border-radius: 0px;
+}
+
+.std-input[type="text"]:focus,
+.std-input[type="number"]:focus,
+.std-input[type="date"]:focus,
+select.std-input:focus,
+textarea.std-input:focus {
+	/* box-shadow: 0 0 12px mediumseagreen; */
+	outline: none;
+}
+
+.manage-p { margin-left:0 !important; margin-bottom:10px !important;}
+
+/*********** Responsive CSS Section Start **********/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+.right-section .ticket-box .ticket-box-bdy ul li h4 { font-size:12px;}
+.right-section .ticket-box .ticket-box-bdy ul li p { font-size:11px;}
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+
+.right-section .ticket-box .ticket-box-bdy ul li h4 { font-size:13px;}
+.left-panel { display:none;}
+.main-nav-bar { display:none;}
+.body-section { margin-top:70px;}
+
+.overlay { height:500px; width: 100%; position: fixed; z-index: 999; top:70px; background:#323A8B; overflow-y: scroll; transition: 0.5s; clear:both; display:block;}
+.overlay-content { position: relative; width: 100%; text-align: center; margin-top: 30px; clear:both; 	display:block;}
+.overlay .closebtn { font-size: 40px; float:right; color:#fff; margin-right:15px;}
+.left-section { height:500px; overflow:auto; margin-bottom:30px;}
+.left-section .form-group p { width:100%; display:block; clear:both; text-align:left;}
+.btn-sm, .btn-xs { font-size:10px;}
+.form-control { font-size:10px;}
+.cust-btn { width:100%;}
+.cust-btn1 { width:100%;}
+.cust-btn2 { width:100%;}
+.margin-bottom-15 { margin-bottom:15px;}
+.reject .cust-btn1 { text-align: center; margin:auto; width:100%; display:block; color:#fff;}
+.reject1 .cust-btn1 { text-align: center; margin:auto; width:100%; display:block; color:#fff;}
+.reject { top:-90px;}
+.reject1 { top:-10px;}
+
+}
+
+
+/*********** Responsive CSS Section End **********/
+

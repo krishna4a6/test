@@ -1,0 +1,219 @@
+.rounded_bg{
+border: 1px solid #ccc;
+border-radius: 50%;
+width: 500px;
+height: 500px;
+margin:0px auto; position: relative;
+top: 70px;margin-bottom: 132px;}
+.menuitems{ width:500px; margin:0px auto; position:relative;
+}
+.trigger {
+	top: 162px;
+	border: none;
+	outline: none;
+	text-align: center;
+	position: relative;
+}
+.menuitems li {
+	
+	font-size: 1.8em;
+	position: absolute; top: 200px; 
+	left: 41%;
+}
+.menuitems li span.timesheet::before{content: '';position: absolute;top: 100px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: 30px;}
+.menuitems li span.businesssummary::before{content: '';position: absolute;top: -176px;width: 1px;height: 100px;background: #ddd;z-index: -1;left: 55px;}
+.menuitems li span.meetingmanagement::before{content: '';position: absolute;top: 20px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: 242px;
+-moz-transform: skew(45deg);-webkit-transform: skew(45deg);transform: skew(45deg);}
+.menuitems li span.approvals::before{content: '';position: absolute;top: 25px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: -105px;
+-moz-transform: skew(-45deg);-webkit-transform: skew(-45deg);transform: skew(-45deg);}
+.menuitems li span.myprojects::before{content: '';position: absolute;top: -60px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: 183px;
+-moz-transform: skew(125deg);-webkit-transform: skew(125deg);transform: skew(125deg);}
+.menuitems li span.overdue::before{content: '';position: absolute;top: -64px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: -117px;
+-moz-transform: skew(-125deg);-webkit-transform: skew(-125deg);transform: skew(-125deg);}
+.menuitems li span.myactionitem::before{content: '';position: absolute;top: 0px;width: 60px;height: 1px;background: #ddd;z-index: -1;left:203px;}
+.menuitems li span.escalations::before{content: '';position: absolute;top: 4px;width: 60px;height: 1px;background: #ddd;z-index: -1;left: -165px;}
+
+/*
+.menuitems li a span.timesheet::before{content: '';position: absolute;top: 100px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: 72px;}
+.menuitems li span.businesssummary::before{content: '';position: absolute;top: -160px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: 67px;}
+.menuitems li a span.meetingmanagement::before{content: '';position: absolute;top: 20px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: 242px;
+-moz-transform: skew(45deg);-webkit-transform: skew(45deg);transform: skew(45deg);}
+.menuitems li a span.approvals::before{content: '';position: absolute;top: 20px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: -72px;
+-moz-transform: skew(-45deg);-webkit-transform: skew(-45deg);transform: skew(-45deg);}
+.menuitems li a span.myprojects::before{content: '';position: absolute;top: -60px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: 222px;
+-moz-transform: skew(125deg);-webkit-transform: skew(125deg);transform: skew(125deg);}
+.menuitems li a span.overdue::before{content: '';position: absolute;top: -60px;width: 1px;height: 60px;background: #ddd;z-index: -1;left: -72px;
+-moz-transform: skew(-125deg);-webkit-transform: skew(-125deg);transform: skew(-125deg);}
+.menuitems li a span.myactionitem::before{content: '';position: absolute;top: 0px;width: 60px;height: 1px;background: #ddd;z-index: -1;left:222px;}
+.menuitems li a span.escalations::before{content: '';position: absolute;top: 0px;width: 60px;height: 1px;background: #ddd;z-index: -1;left: -112px;}*/
+
+.menuitems li:first-child {
+	-webkit-transform: scale3d(1, 1, 1) translate3d(0, -240px, 0);
+	transform: scale3d(1, 1, 1) translate3d(0, -240px, 0);
+}
+
+.menuitems li:nth-child(2) {
+	-webkit-transform: scale3d(1, 1, 1) translate3d(173.14px, -173.14px, 0);
+	transform: scale3d(1, 1, 1) translate3d(173.14px, -173.14px, 0);
+}
+
+.menuitems li:nth-child(3) {
+	-webkit-transform:  scale3d(1, 1, 1) translate3d(250px, 0, 0);
+	transform: scale3d(1, 1, 1) translate3d(250px, 0, 0);
+}
+
+.menuitems li:nth-child(4) {
+	-webkit-transform: scale3d(1, 1, 1) translate3d(178.14px, 178.14px, 0);
+	transform: scale3d(1, 1, 1) translate3d(178.14px, 178.14px, 0);
+}
+
+.menuitems li:nth-child(5) {
+	-webkit-transform: scale3d(1, 1, 1) translate3d(0, 250px, 0);
+	transform: scale3d(1, 1, 1) translate3d(0, 250px, 0);
+}
+
+.menuitems li:nth-child(6) {
+	-webkit-transform: scale3d(1, 1, 1) translate3d(-173.14px, 173.14px, 0);
+	transform: scale3d(1, 1, 1) translate3d(-173.14px, 173.14px, 0);
+}
+
+.menuitems li:nth-child(7) {
+	-webkit-transform: scale3d(1, 1, 1) translate3d(-250px, 0, 0);
+	transform: scale3d(1, 1, 1) translate3d(-250px, 0, 0);
+}
+
+.menuitems li:nth-child(8) {
+	-webkit-transform: scale3d(1, 1, 1) translate3d(-173.14px, -173.14px, 0);
+	transform: scale3d(1, 1, 1) translate3d(-173.14px, -173.14px, 0);
+}
+
+.menuitems li a {
+	display: block;width: 80px;
+	height: 80px;
+	line-height: 80px;
+	background: #fff;
+	color: #ABABAB;
+	border-radius: 50%;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 40px -3px rgba(171,171,171,1);
+	-moz-box-shadow: 0px 0px 40px -3px rgba(171,171,171,1);
+	box-shadow: 0px 0px 40px -3px rgba(171,171,171,1);/*transition: all .1s ease-in-out;*/
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+.menuitems li a:hover,
+.menuitems li a:focus {
+	background: #fff;
+	color: #7BAA41; text-decoration:none;/*transform: scale(1.1);*/ z-index:10000;
+	-webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.menuitems li span.test{ position:absolute; top:35%;left:28%; z-index:100000; font-size:26px; color:#ABABAB;}
+.menuitems li span.test:hover{ position:absolute; top:35%;left:28%; font-size:26px;color:#7BAA41;}
+.menuitems li span {
+position: absolute;
+color: #000;
+top: 100%;
+font-size: 13px;
+line-height: 5px;
+
+}
+.menuitems li span.timesheet {position: absolute;top:-30%;line-height: 5px;width: 142px;left: 10px;}
+.menuitems li span.businesssummary {position: absolute;color: #000;   top: 125%;line-height: 5px;width: 142px;left: -15px;}
+.menuitems li span.meetingmanagement {position: absolute;color: #000;   top: 47%;line-height: 5px;width: 142px;left: -157px;}
+.menuitems li span.approvals {position: absolute;color: #000;   top: 47%;line-height: 5px;width: 142px;left: 105px;}
+.menuitems li span.myprojects {position: absolute;color: #000;   top: 47%;line-height: 5px;width: 142px;left: -105px;}
+.menuitems li span.overdue {position: absolute;color: #000;   top: 47%;line-height: 5px;width: 142px;left: 100px;}
+.menuitems li span.myactionitem {position: absolute;color: #000;   top: 47%;line-height: 5px;width: 142px;left: -124px;}
+.menuitems li span.escalations {position: absolute;color: #000;   top: 47%;line-height: 5px;width: 142px;left: 110px;}
+
+
+
+.menuitems li a span.OverDue_MW{background: #ED7B83;width: 25px;height: 25px;padding-top: 8px;color: #fff; border-radius:50%; border:2px solid #fff;
+-webkit-box-shadow: 0px 0px 20px -3px rgba(171,171,171,1);-moz-box-shadow: 0px 0px 20px -3px rgba(171,171,171,1);box-shadow: 0px 0px 20px -3px rgba(171,171,171,1);font-size:11px;}
+.menuitems li a span.Pending_MW{background: #EF9E5F;width: 35px;height: 35px;padding-top: 14px;color: #fff; border-radius:50%; border:3px solid #fff;
+-webkit-box-shadow: 0px 0px 20px -3px rgba(171,171,171,1);-moz-box-shadow: 0px 0px 20px -3px rgba(171,171,171,1);box-shadow: 0px 0px 20px -3px rgba(171,171,171,1);font-size:11px;}
+
+
+.menuitems li a span.timesheet_O{position: absolute;top: 35%;left:72px;line-height: 5px;}
+.menuitems li a span.timesheet_P{position: absolute;top: 29%;left:-26px;line-height: 5px;}
+
+.menuitems li a span.businesssummary_O{position: absolute;top: 37%;left:-17px;line-height: 5px;}
+.menuitems li a span.businesssummary_P{position: absolute;top: 29%;left:69px;line-height: 5px;}
+
+.menuitems li a span.meetingmanagement_O{position: absolute;top: 4%;left:59px;line-height: 5px;}
+.menuitems li a span.meetingmanagement_P{position: absolute;top: 74%;left:-6px;line-height: 5px;}
+
+.menuitems li a span.approvals_O{position: absolute;top: 73%;left:59px;line-height: 5px;}
+.menuitems li a span.approvals_P{position: absolute;top: -11%;left:-13px;line-height: 5px;}
+
+.menuitems li a span.myprojects_O{position: absolute;top: 0%;left:-6px;line-height: 5px;}
+.menuitems li a span.myprojects_P{position: absolute;top: 72%;left:53px;line-height: 5px;}
+
+.menuitems li a span.overdue_O{position: absolute;top: 74%;left:0px;line-height: 5px;}
+.menuitems li a span.overdue_P{position: absolute;top: -11%;left:54px;line-height: 5px;}
+
+.menuitems li a span.myactionitem_O{position: absolute;top: -20%;left:34px;line-height: 5px;}
+.menuitems li a span.myactionitem_P{position: absolute;top: 84%;left:29px;line-height: 5px;}
+
+.menuitems li a span.escalations_O{position: absolute;top: 88%;left:28px;line-height: 5px;}
+.menuitems li a span.escalations_P{position: absolute;top: -30%;left:19px;line-height: 5px;}
+
+
+
+@media screen and (max-width: 40em) {
+.menuitems {
+		-webkit-transform: scale3d(0.5,0.5,1);
+		transform: scale3d(0.5,0.5,1);
+	}
+.rounded_bg{
+	border:none;
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	margin:0px auto; position: relative;
+	top: 70px;}
+.trigger {
+	top: 162px;
+	border: none;
+	outline: none;
+	text-align: center;
+	position: relative;right: 158px;
+}
+.menuitems li {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 2em;
+    position: absolute;
+    top: 200px;
+    left: 9%;
+}
+/*.menuitems li a span.meetingmanagement {position: absolute;color: #000;   top: -40%;line-height: 5px;width: 202px;left: -67px;font-size:18px;}
+.menuitems li a span.myactionitem {position: absolute;color: #000;   top: -47%;line-height: 5px;width: 142px;left: -34px;}
+.menuitems li a span.myprojects {position: absolute;color: #000;   top: 47%;line-height: 5px;width: 142px;left: -135px;}
+.menuitems li a span.escalations {position: absolute;color: #000;   top: -47%;line-height: 5px;width: 142px;left: -4px;}
+.menuitems li a span.approvals {position: absolute;color: #000;   top: -40%;line-height: 5px;width: 142px;left: -22px;}*/
+
+.menuitems li span.overdue {position: absolute;color: #000;   top: -42%;line-height: 5px;width: 142px;left: 48px;font-size:18px;}
+.menuitems li span.businesssummary {position: absolute;color: #000;   top: 125%;line-height: 5px;width: 162px;left: -35px;font-size:18px;}
+.menuitems li span.meetingmanagement {position: absolute;color: #000;   top: -40%;line-height: 5px;width: 202px;left: -67px;font-size:18px;}
+.menuitems li span.myactionitem {position: absolute;color: #000;   top: -55%;line-height: 5px;width: 142px;left: -34px;font-size:18px;}
+.menuitems li span.myprojects {position: absolute;color: #000;   top: -42%;line-height: 5px;width: 142px;left: -66px;font-size:18px;}
+.menuitems li span.escalations {position: absolute;color: #000;   top: -57%;line-height: 5px;width: 142px;left: -4px;font-size:18px;}
+.menuitems li span.approvals {position: absolute;color: #000;   top: -40%;line-height: 5px;width: 142px;left: -22px;font-size:18px;}
+
+.menuitems li span.timesheet::before{display:none;}
+.menuitems li span.businesssummary::before{display:none;}
+.menuitems li span.meetingmanagement::before{display:none;}
+.menuitems li span.approvals::before{display:none;}
+.menuitems li span.myprojects::before{display:none;}
+.menuitems li span.overdue::before{display:none;}
+.menuitems li span.myactionitem::before{display:none;}
+.menuitems li span.escalations::before{display:none;}
+
+}
